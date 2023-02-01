@@ -1,0 +1,96 @@
+         <!DOCTYPE html>
+        <html lang="Pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <!-- fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+        <!--fim fontes  -->
+        <link rel="stylesheet" href="estilo.css">
+        <title>SnapClimate</title>
+        <link rel = "shortcut icon" type = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSzRVeGKLLkm7AXcgZYMuPK7PwuzHo-DJYQ&usqp=CAU" href = "#"/>
+    </head>
+<body>
+
+    <header class="header">
+        <div class="header__citybar">
+            <input id="city-search-input" class="header__input" type="text" placeholder="Temperatura de qual cidade?">
+            <button id="city-search-button" class="header__button-icon"><img src="/assets/search-icon.svg" alt="Ícone de uma lupa."></button>
+        </div>
+
+       <center> <div class="header__current-date" id="current-date">...</div></center>
+
+    <center><div class="header__city-name" id="city-name">...</div></center>
+
+    </header>
+
+        <section class="current-temperature">
+            <img class="current-temperature__icon" id="weather-icon" src="/assets/loading-icon.svg" aria-hidden="true" alt="Ícone que inlustra a temperatura atual">
+            <div class="current-temperature__description" id="weather-description">...</div>
+                <div class="current-temperature__info-label">Tempo agora</div>
+            <div class="current-temperature__current-temperature" id="current-temperature">...</div>
+         </section>
+
+         <div class="bottom-container">
+            <section class="temperature-details">
+                <div class="temperature-details__itens">
+                <div class="temperature-details__label">Vento</div>
+                <div class="temperature-details__value" id="wind-speed">...</div>
+                </div>
+
+                <div class="temperature-details__itens">
+                    <div class="temperature-details__label">Sensação</div>
+                    <div class="temperature-details__value" id="feels-like-temperature">...</div>
+                    </div>
+
+                <div class="temperature-details__itens">
+                    <div class="temperature-details__label">Umidade</div>
+                    <div class="temperature-details__value" id="current-humidity">...</div>
+                    </div>
+            </section>
+
+            <section class="sunset-sunrise">
+                <div class="sunset-sunrise__item">
+                    <img class="sunset-sunrise__icon" src="/assets/sunrise.svg" alt="Nascer do Sol">
+                    <div class="sunset-sunrise__value" id="sunrise-time">...</div>
+                </div>
+                
+                <div class="sunset-sunrise__item">
+                    <img class="sunset-sunrise__icon" src="/assets/sunset.svg" alt="Pôr do Sol">
+                    <div class="sunset-sunrise__value" id="sunset-time">...</div>
+                </div>
+            </section>
+         </div>
+
+
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- 
+    chave de api
+    9655dc6b1081c7f4d89e2fc74d2c493c 
+-->
+
+
+<!-- senha aula 1
+    Perrengue
+-->
+<!-- senha aula 2 
+nunca
+-->
